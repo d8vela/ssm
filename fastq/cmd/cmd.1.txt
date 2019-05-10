@@ -1,0 +1,43 @@
+
+
+# ---- Binding Sorts ----
+
+# Naive Library (No Selection)
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-S0_S1_L001_R1_001.fastq	-r ZX-SSM3-S0_S1_L001_R2_001.fastq	-o ZX-SSM3-S0_S1_L001_001.paired.fastq
+
+# Mayinga GP Sort 1
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-S1Y_S2_L001_R1_001.fastq	-r ZX-SSM3-S1Y_S2_L001_R2_001.fastq	-o ZX-SSM3-S1Y_S2_L001_001.paired.fastq
+
+# Mayinga GP Sort 2
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-S2Y_S3_L001_R1_001.fastq	-r ZX-SSM3-S2Y_S3_L001_R2_001.fastq	-o ZX-SSM3-S2Y_S3_L001_001.paired.fastq
+
+# Mayinga GP Sort 3
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-S3Y_S4_L001_R1_001.fastq	-r ZX-SSM3-S3Y_S4_L001_R2_001.fastq	-o ZX-SSM3-S3Y_S4_L001_001.paired.fastq
+
+# Makona GPM Sort 1
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-S1K_S5_L001_R1_001.fastq 	-r ZX-SSM3-S1K_S5_L001_R2_001.fastq	-o ZX-SSM3-S1K_S5_L001_001.paired.fastq
+
+# Makona GPM Sort 2
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-S2K_S6_L001_R1_001.fastq	-r ZX-SSM3-S2K_S6_L001_R2_001.fastq	-o ZX-SSM3-S2K_S6_L001_001.paired.fastq
+
+# Makona GPM Sort 3
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-S3K_S7_L001_R1_001.fastq	-r ZX-SSM3-S3K_S7_L001_R2_001.fastq	-o ZX-SSM3-S3K_S7_L001_001.paired.fastq
+
+
+# ---- Protease Sorts ----
+
+# FITC Only
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-FITC_S8_L001_R1_001.fastq -r ZX-SSM3-FITC_S8_L001_R2_001.fastq -o ZX-SSM3-FITC_S8_L001_001.paired.fastq
+
+# 1/243 Protease Mix
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-243_S9_L001_R1_001.fastq -r ZX-SSM3-243_S9_L001_R2_001.fastq -o ZX-SSM3-243_S9_L001_001.paired.fastq
+
+# 1/81 Protease Mix
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-81_S10_L001_R1_001.fastq -r ZX-SSM3-81_S10_L001_R2_001.fastq -o ZX-SSM3-81_S10_L001_001.paired.fastq
+
+# 1/27 Protease Mix
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-27_S11_L001_R1_001.fastq -r ZX-SSM3-27_S11_L001_R2_001.fastq -o ZX-SSM3-27_S11_L001_001.paired.fastq
+
+# 1/9 Protease Mix
+/work/davela/bin/pear-0.9.6-bin-32 -f ZX-SSM3-9_S12_L001_R1_001.fastq -r ZX-SSM3-9_S12_L001_R2_001.fastq -o ZX-SSM3-9_S12_L001_001.paired.fastq
+

@@ -1,0 +1,24 @@
+# Example
+#../../scripts/step3/mapCountAll.py --in <file_name>.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+# Naive Library (No Selection)
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-S0_S1_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+# Mayinga GP Sorts
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-S1Y_S2_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-S2Y_S3_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-S3Y_S4_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+# Makona GPM Sorts
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-S1K_S5_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-S2K_S6_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-S3K_S7_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+# Protease Mix Sorts
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-FITC_S8_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-243_S9_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-81_S10_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-27_S11_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+../../scripts/step3/mapCountAll.py --in ZX-SSM3-9_S12_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+

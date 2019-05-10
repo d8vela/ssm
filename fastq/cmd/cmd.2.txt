@@ -1,0 +1,43 @@
+# Extract your sequences based on your wild-type sequence
+
+# ZX6 Combo1 L12R WT
+# DNA Seq: CCGGAATCTGCGCTGCGTAGGTACGTTGCGCTGCGGATGATGCTGTACCTGATGCGCAAAGCTGGTCTGGACCCGAACGAAGTGAGAGAGGTACGCAACAAAATGAAGAAGATCTGGGAAGATCTGGACGAAGGTAAGCTGACCCCGGAACGGTTCAACGAAAAGATGGAACGCATCAGCCGTGAACTAGTAAAGAAGGTACGTGAACGACAGGAAAAAAACAAA 
+# Protein Seq: PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK
+
+# Run Example (Previously for SSM2)
+#../../scripts/new/extractDesign.pl YakovDave10_S27_L001_001.paired.fastq.assembled.fastq.assembled.fastq PESALRMYVKLLMMLYRMSKKGLDPNEVNEVRKKMKKIVEKLREGKLTPEQVSREMERISRELEKKVRKIQEKNK > YakovDave10_S27_L001_001.paired.fastq.assembled.fastq.zx6.prot_PRO_qc2
+
+# Extract Design Sequences from PEAR Assembled Sequences (SSM3)
+
+
+# --- Naive Library (No Selection) ---
+../../scripts/new/extractDesign.pl ZX-SSM3-S0_S1_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-S0_S1_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+
+# --- Mayinga GP Sorts ---
+../../scripts/new/extractDesign.pl ZX-SSM3-S1Y_S2_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-S1Y_S2_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+../../scripts/new/extractDesign.pl ZX-SSM3-S2Y_S3_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-S2Y_S3_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+../../scripts/new/extractDesign.pl ZX-SSM3-S3Y_S4_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-S3Y_S4_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+
+# --- Makona GPM Sorts ---
+../../scripts/new/extractDesign.pl ZX-SSM3-S1K_S5_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-S1K_S5_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+../../scripts/new/extractDesign.pl ZX-SSM3-S2K_S6_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-S2K_S6_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+../../scripts/new/extractDesign.pl ZX-SSM3-S3K_S7_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-S3K_S7_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+
+# --- Protease Sorts ---
+../../scripts/new/extractDesign.pl ZX-SSM3-FITC_S8_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-FITC_S8_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+../../scripts/new/extractDesign.pl ZX-SSM3-243_S9_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-243_S9_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2 
+
+../../scripts/new/extractDesign.pl ZX-SSM3-81_S10_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-81_S10_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+../../scripts/new/extractDesign.pl ZX-SSM3-27_S11_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-27_S11_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+
+../../scripts/new/extractDesign.pl ZX-SSM3-9_S12_L001_001.paired.fastq.assembled.fastq PESALRRYVALRMMLYLMRKAGLDPNEVREVRNKMKKIWEDLDEGKLTPERFNEKMERISRELVKKVRERQEKNK > ZX-SSM3-9_S12_L001_001.paired.fastq.assembled.fastq.prot_PRO_qc2
+

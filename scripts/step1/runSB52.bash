@@ -1,0 +1,15 @@
+python /work/strauch/scripts/ds/quickunforgivingfuser1.3b.py \
+--read1 $1 \
+--verbose 0 \
+--read2 $2 \
+--paired_mismatch_threshold 12 \
+--min_positional_quality 12 \
+--min_avgqual 18 \
+--read1_start 1 \
+--read2_start 1 \
+--length_overlap $3 \
+--trim_5p $4 \
+--trim_3p $5 \
+--include_nonoverlap_region 1 \
+--wtseq $6 \
+--mode B
